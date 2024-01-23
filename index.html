@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <!-- begining of google font code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@200;500;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Ubuntu:wght@500&display=swap');
+  </style>
+    <!-- end of google font code -->
+
+  <title>Quiz Application</title>
+</head>
+
+<body>
+  <h1 class="title">Simple Quiz Application</h1> 
+
+  <div class="container">
+    <div id="question">Question is loading...</div> <!--this is for the Question-->
+    <div id="options"></div> <!--this is for the options-->
+    <div id="track_questions" class="track_questions"></div> <!-- this is for the question progress -->
+
+        <!-- This is for the progress Bar -->
+        <div class="progress_container">
+            <div id="progress-bar"></div>
+        </div>
+
+    <button class="btn" id="next" disabled>Next</button> <!--this is the Next button-->
+    <button class="btn hidden" id="try_again"></button> <!-- this is to try again -->
+        
+    <div class="result" id="result">
+
+    </div> <!--this is to display the result--> 
+  </div> 
+
+
+
+
+<script src="script.js"></script>  
+</body>
+</html>
+

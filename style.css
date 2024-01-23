@@ -1,0 +1,107 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}  
+
+.title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgba(16, 91, 229, 0.86);
+}
+ .container { 
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+
+/*styles for option div*/ 
+.option {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 80%;
+}
+.option:hover {
+  background-color: #ccc;
+} 
+.option:focus { 
+  background-color: cornflowerblue;
+
+} 
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgba(16, 91, 229, 0.86);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+
+} 
+
+.btn:hover {
+background-color: rgba(79, 132, 230, 0.86);
+} 
+
+.btn:disabled {
+  background-color: #999;
+  cursor: no-drop; 
+} 
+
+.track_questions {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(16, 91, 229, 0.86);
+
+} 
+
+span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#progress-bar {
+  width: 0;
+  height: 10PX;
+  background-color: rgba(16, 91, 229, 0.86);
+  font-size: 12px;
+  border-radius: 100px;
+
+} 
+
+.progress_container {
+  width: 80%;
+  background-color: rgba(135, 171, 236);
+  height: 10px;
+  margin: 10px auto;
+  border-radius: 100px;
+} 
+
+.hidden {
+  display: none;
+  margin: 0 auto;
+}
+
+.complete {
+  width: 80%;
+  height: 50%;
+  color: rgba(16, 91, 229, 0.86)
+
+} 
+
+
