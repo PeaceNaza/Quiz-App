@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  }, 
+  
   "keywords": ["quiz application", "HTMl", "CSS", "JavaScript"],
   "author": "Peace Nwosu",
   "license": "ISC"
