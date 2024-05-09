@@ -186,7 +186,13 @@ function showScores() {
   //when the try again button is clicked
   tryAgain.addEventListener('click', () => {window.location.reload();
   })
-
+  
+  window.addEventListener('beforeunload', function(e) {
+    if (currQuestion < quizQuestion.length) {
+      var msg = 'You are in the middle of your quiz if you leave now, you will loose your quiz progress'
+      e.returnValue = msg //modern browsers
+    } 
+  }) 
 
 // invoke the display question function 
  displayQuestion(); 
